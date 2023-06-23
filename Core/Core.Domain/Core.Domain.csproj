@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Benefits\Entities\" />
+    <Folder Include="Benefits\Enums\" />
+    <Folder Include="Benefits\Exceptions\" />
+    <Folder Include="Benefits\Interfaces\" />
+    <Folder Include="Common\Entities\" />
+    <Folder Include="Common\Enums\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Payroll\Exceptions\" />
+    <Folder Include="Payroll\Enums\" />
+  </ItemGroup>
+
 </Project>

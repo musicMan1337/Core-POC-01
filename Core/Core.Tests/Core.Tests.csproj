@@ -22,14 +22,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core.API\Core.API.csproj" />
     <ProjectReference Include="..\Core.Application\Core.Application.csproj" />
     <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
     <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj" />
-    <ProjectReference Include="..\WebAPI\WebAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Benefits\" />
+    <Folder Include="Benefits\Domain\" />
+    <Folder Include="Benefits\Application\" />
+    <Folder Include="Benefits\Infrastructure\" />
+    <Folder Include="Benefits\API\" />
+    <Folder Include="Payroll\API\" />
+    <Folder Include="Payroll\Application\" />
+    <Folder Include="Payroll\Domain\" />
   </ItemGroup>
 
 </Project>
